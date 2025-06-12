@@ -157,9 +157,7 @@ const ResultadosSimulacion = ({ resultados }) => {
         <Card.Body>
           <p className="mb-3">
             <strong>Consigna:</strong>Determinar el máximo número de clientes
-            que hubo en cada cola durante la simulación. Se registra la máxima
-            cantidad de clientes en cada cola para dimensionar el espacio físico
-            necesario.
+            que hubo en cada cola durante la simulación.
           </p>
           <p className="mb-3">
             <strong>Justificación:</strong> Conocer el tamaño máximo de las
