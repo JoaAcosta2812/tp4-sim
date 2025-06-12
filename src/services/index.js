@@ -2244,7 +2244,7 @@ const registrarEventoRegreso = (reloj, eventos) => {
     servicio: "atencion_empresarial_con_ausencia",
     tipo: "regreso_servidor",
     servidor: "servidor_periodico",
-    hora: reloj + 20 / 60, /// hora actual + 20 min
+    hora: reloj + 12 / 60, /// hora actual + 12 min
   });
 };
 

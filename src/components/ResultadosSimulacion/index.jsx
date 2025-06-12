@@ -134,6 +134,14 @@ const ResultadosSimulacion = ({ resultados }) => {
             <tbody>
               <tr>
                 <td>Venta de Sellos y Sobres</td>
+                <td>
+                  {resultados.punto_1[
+                    "venta_de_sellos_y_sobres"
+                  ]?.porcentaje_de_ocupacion.toFixed(2) || "-"}
+                </td>
+              </tr>
+              <tr>
+                <td>Venta de Sellos y Sobres con un empleado menos</td>
                 <td>{resultados.punto_3.toFixed(2)}</td>
               </tr>
             </tbody>
@@ -149,9 +157,9 @@ const ResultadosSimulacion = ({ resultados }) => {
         <Card.Body>
           <p className="mb-3">
             <strong>Consigna:</strong>Determinar el máximo número de clientes
-            que hubo simultáneamente en cada cola durante la simulación. Se
-            registra la máxima cantidad de clientes simultáneos en cada cola
-            para dimensionar el espacio físico necesario.
+            que hubo en cada cola durante la simulación. Se registra la máxima
+            cantidad de clientes en cada cola para dimensionar el espacio físico
+            necesario.
           </p>
           <p className="mb-3">
             <strong>Justificación:</strong> Conocer el tamaño máximo de las
