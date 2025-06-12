@@ -105,7 +105,7 @@ const ResultadosSimulacion = ({ resultados }) => {
                 {/* Usa la función de formato */}
               </tr>
               <tr>
-                <td>Incremento</td>
+                <td>Incremento del tiempo de espera</td>
                 <td>{resultados.punto_2.incremento.toFixed(2)}%</td>
               </tr>
             </tbody>
